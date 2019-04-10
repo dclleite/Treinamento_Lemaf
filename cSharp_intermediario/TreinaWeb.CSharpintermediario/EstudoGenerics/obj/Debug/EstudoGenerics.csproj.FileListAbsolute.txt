@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoGenerics\bin\Debug\EstudoGenerics.exe.config
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoGenerics\bin\Debug\EstudoGenerics.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoGenerics\bin\Debug\EstudoGenerics.pdb
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoGenerics\obj\Debug\EstudoGenerics.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoGenerics\obj\Debug\EstudoGenerics.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoGenerics\obj\Debug\EstudoGenerics.pdb

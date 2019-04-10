@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\EstudoClasses\EstudoClasses\bin\Debug\EstudoClasses.exe.config
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\EstudoClasses\EstudoClasses\obj\Debug\EstudoClasses.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\EstudoClasses\EstudoClasses\bin\Debug\EstudoClasses.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\EstudoClasses\EstudoClasses\bin\Debug\EstudoClasses.pdb
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\EstudoClasses\EstudoClasses\obj\Debug\EstudoClasses.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\EstudoClasses\EstudoClasses\obj\Debug\EstudoClasses.pdb

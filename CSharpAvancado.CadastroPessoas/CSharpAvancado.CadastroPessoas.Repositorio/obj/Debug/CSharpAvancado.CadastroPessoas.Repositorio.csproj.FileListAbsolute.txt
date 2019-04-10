@@ -113,3 +113,14 @@ C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\C
 C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\CadastroPessoas.Persistencia.EF.pdb
 C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\CadastroPessoas.Persistencia.EF.dll.config
 C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\obj\Debug\CSharpAvancado.CadastroPessoas.Repositorio.csproj.CopyComplete
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\CSharpAvancado.CadastroPessoas.Repositorio.dll.config
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\Antlr3.Runtime.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\Iesi.Collections.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\NHibernate.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\Remotion.Linq.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\System.Buffers.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\System.Memory.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\CadastroPessoas.Persistencia.NHIbernate.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CSharpAvancado.CadastroPessoas.Repositorio\bin\Debug\CadastroPessoas.Persistencia.NHIbernate.pdb

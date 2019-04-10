@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoXml\bin\Debug\EstudoXml.exe.config
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoXml\bin\Debug\EstudoXml.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoXml\bin\Debug\EstudoXml.pdb
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoXml\obj\Debug\EstudoXml.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoXml\obj\Debug\EstudoXml.frmAgenda.resources
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoXml\obj\Debug\EstudoXml.Properties.Resources.resources
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoXml\obj\Debug\EstudoXml.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoXml\obj\Debug\EstudoXml.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_intermediario\TreinaWeb.CSharpintermediario\EstudoXml\obj\Debug\EstudoXml.pdb

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsTeste", "StringsTeste\StringsTeste.csproj", "{6624F048-F1AC-477D-8B93-9A25744C966E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxingUmboxing", "BoxingUmboxing\BoxingUmboxing.csproj", "{D8882B51-80DF-4DE8-A20A-6FA3F93F4D2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6624F048-F1AC-477D-8B93-9A25744C966E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6624F048-F1AC-477D-8B93-9A25744C966E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6624F048-F1AC-477D-8B93-9A25744C966E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6624F048-F1AC-477D-8B93-9A25744C966E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8882B51-80DF-4DE8-A20A-6FA3F93F4D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8882B51-80DF-4DE8-A20A-6FA3F93F4D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8882B51-80DF-4DE8-A20A-6FA3F93F4D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8882B51-80DF-4DE8-A20A-6FA3F93F4D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

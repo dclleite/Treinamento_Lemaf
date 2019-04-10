@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Collections\Collections\bin\Debug\Collections.exe.config
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Collections\Collections\bin\Debug\Collections.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Collections\Collections\bin\Debug\Collections.pdb
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Collections\Collections\obj\Debug\Collections.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Collections\Collections\obj\Debug\Collections.pdb

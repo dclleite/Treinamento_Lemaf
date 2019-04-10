@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\BoxingUmboxing\bin\Debug\BoxingUmboxing.exe.config
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\BoxingUmboxing\bin\Debug\BoxingUmboxing.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\BoxingUmboxing\bin\Debug\BoxingUmboxing.pdb
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\BoxingUmboxing\obj\Debug\BoxingUmboxing.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\BoxingUmboxing\obj\Debug\BoxingUmboxing.pdb

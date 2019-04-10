@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\AgendaContatosTreinaWeb\AgendaContatosTreinaWeb\bin\Debug\AgendaContatosTreinaWeb.exe.config
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\AgendaContatosTreinaWeb\AgendaContatosTreinaWeb\bin\Debug\AgendaContatosTreinaWeb.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\AgendaContatosTreinaWeb\AgendaContatosTreinaWeb\bin\Debug\AgendaContatosTreinaWeb.pdb
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\AgendaContatosTreinaWeb\AgendaContatosTreinaWeb\obj\Debug\AgendaContatosTreinaWeb.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\AgendaContatosTreinaWeb\AgendaContatosTreinaWeb\obj\Debug\AgendaContatosTreinaWeb.frmAgendaContatos.resources
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\AgendaContatosTreinaWeb\AgendaContatosTreinaWeb\obj\Debug\AgendaContatosTreinaWeb.Properties.Resources.resources
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\AgendaContatosTreinaWeb\AgendaContatosTreinaWeb\obj\Debug\AgendaContatosTreinaWeb.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\AgendaContatosTreinaWeb\AgendaContatosTreinaWeb\obj\Debug\AgendaContatosTreinaWeb.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\AgendaContatosTreinaWeb\AgendaContatosTreinaWeb\obj\Debug\AgendaContatosTreinaWeb.pdb

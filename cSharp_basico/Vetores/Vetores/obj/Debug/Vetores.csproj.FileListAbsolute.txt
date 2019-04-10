@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Vetores\Vetores\bin\Debug\Vetores.exe.config
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Vetores\Vetores\bin\Debug\Vetores.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Vetores\Vetores\bin\Debug\Vetores.pdb
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Vetores\Vetores\obj\Debug\Vetores.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Vetores\Vetores\obj\Debug\Vetores.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\Vetores\Vetores\obj\Debug\Vetores.pdb

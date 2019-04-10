@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\StringsTeste\bin\Debug\StringsTeste.exe.config
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\StringsTeste\bin\Debug\StringsTeste.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\StringsTeste\bin\Debug\StringsTeste.pdb
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\StringsTeste\obj\Debug\StringsTeste.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\StringsTeste\obj\Debug\StringsTeste.exe
+C:\Users\User\Desktop\TreinaWeb\cSharp_basico\StringsTeste\StringsTeste\obj\Debug\StringsTeste.pdb
