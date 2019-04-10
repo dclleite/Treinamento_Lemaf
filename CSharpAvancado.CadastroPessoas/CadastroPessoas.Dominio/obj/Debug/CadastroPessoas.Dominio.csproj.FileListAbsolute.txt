@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CadastroPessoas.Dominio\bin\Debug\CadastroPessoas.Dominio.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CadastroPessoas.Dominio\bin\Debug\CadastroPessoas.Dominio.pdb
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CadastroPessoas.Dominio\obj\Debug\CadastroPessoas.Dominio.csprojAssemblyReference.cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CadastroPessoas.Dominio\obj\Debug\CadastroPessoas.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CadastroPessoas.Dominio\obj\Debug\CadastroPessoas.Dominio.dll
+C:\Users\User\Desktop\TreinaWeb\cSharp_avancado\CSharpAvancado.CadastroPessoas\CadastroPessoas.Dominio\obj\Debug\CadastroPessoas.Dominio.pdb
