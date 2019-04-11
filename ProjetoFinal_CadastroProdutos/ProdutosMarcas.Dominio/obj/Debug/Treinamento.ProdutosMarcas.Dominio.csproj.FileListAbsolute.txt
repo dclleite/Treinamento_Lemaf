@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\ProdutosMarcas\ProdutosMarcas.Dominio\bin\Debug\ProdutosMarcas.Dominio.dll
+C:\Users\User\source\repos\ProdutosMarcas\ProdutosMarcas.Dominio\bin\Debug\ProdutosMarcas.Dominio.pdb
+C:\Users\User\source\repos\ProdutosMarcas\ProdutosMarcas.Dominio\obj\Debug\Treinamento.ProdutosMarcas.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ProdutosMarcas\ProdutosMarcas.Dominio\obj\Debug\ProdutosMarcas.Dominio.dll
+C:\Users\User\source\repos\ProdutosMarcas\ProdutosMarcas.Dominio\obj\Debug\ProdutosMarcas.Dominio.pdb

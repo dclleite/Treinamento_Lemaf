@@ -1,0 +1,807 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "EntityFramework/6.2.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "EntityFramework6.Npgsql/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "Npgsql": "4.0.2"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Core",
+          "System.Data",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework6.Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework6.Npgsql.dll": {}
+        }
+      },
+      "Npgsql/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0",
+          "System.Threading.Tasks.Extensions": "4.5.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Dominio.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Persistencia.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "EntityFramework6.Npgsql": "3.2.0",
+          "Treinamento.ProdutosMarcas.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Persistencia.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Persistencia.EF.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Repositorio.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "EntityFramework6.Npgsql": "3.2.0",
+          "Treinamento.ProdutosMarcas.Dominio": "1.0.0",
+          "Treinamento.ProdutosMarcas.Persistencia.EF": "1.0.0",
+          "Treinamento.Repositorio.Comum": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Repositorio.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Repositorio.EF.dll": {}
+        }
+      },
+      "Treinamento.Repositorio.Comum/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Treinamento.Repositorio.Comum.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.Repositorio.Comum.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "EntityFramework/6.2.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "EntityFramework6.Npgsql/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "Npgsql": "4.0.2"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Core",
+          "System.Data",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework6.Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework6.Npgsql.dll": {}
+        }
+      },
+      "Npgsql/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0",
+          "System.Threading.Tasks.Extensions": "4.5.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Dominio.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Persistencia.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "EntityFramework6.Npgsql": "3.2.0",
+          "Treinamento.ProdutosMarcas.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Persistencia.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Persistencia.EF.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Repositorio.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "EntityFramework6.Npgsql": "3.2.0",
+          "Treinamento.ProdutosMarcas.Dominio": "1.0.0",
+          "Treinamento.ProdutosMarcas.Persistencia.EF": "1.0.0",
+          "Treinamento.Repositorio.Comum": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Repositorio.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Repositorio.EF.dll": {}
+        }
+      },
+      "Treinamento.Repositorio.Comum/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Treinamento.Repositorio.Comum.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.Repositorio.Comum.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "EntityFramework/6.2.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "EntityFramework6.Npgsql/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "Npgsql": "4.0.2"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Core",
+          "System.Data",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework6.Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework6.Npgsql.dll": {}
+        }
+      },
+      "Npgsql/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0",
+          "System.Threading.Tasks.Extensions": "4.5.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Dominio.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Persistencia.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "EntityFramework6.Npgsql": "3.2.0",
+          "Treinamento.ProdutosMarcas.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Persistencia.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Persistencia.EF.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Repositorio.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "EntityFramework6.Npgsql": "3.2.0",
+          "Treinamento.ProdutosMarcas.Dominio": "1.0.0",
+          "Treinamento.ProdutosMarcas.Persistencia.EF": "1.0.0",
+          "Treinamento.Repositorio.Comum": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Repositorio.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Repositorio.EF.dll": {}
+        }
+      },
+      "Treinamento.Repositorio.Comum/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Treinamento.Repositorio.Comum.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.Repositorio.Comum.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "EntityFramework/6.2.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "EntityFramework6.Npgsql/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "Npgsql": "4.0.2"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Core",
+          "System.Data",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework6.Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework6.Npgsql.dll": {}
+        }
+      },
+      "Npgsql/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0",
+          "System.Threading.Tasks.Extensions": "4.5.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Dominio.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Persistencia.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "EntityFramework6.Npgsql": "3.2.0",
+          "Treinamento.ProdutosMarcas.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Persistencia.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Persistencia.EF.dll": {}
+        }
+      },
+      "Treinamento.ProdutosMarcas.Repositorio.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "EntityFramework6.Npgsql": "3.2.0",
+          "Treinamento.ProdutosMarcas.Dominio": "1.0.0",
+          "Treinamento.ProdutosMarcas.Persistencia.EF": "1.0.0",
+          "Treinamento.Repositorio.Comum": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Repositorio.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.ProdutosMarcas.Repositorio.EF.dll": {}
+        }
+      },
+      "Treinamento.Repositorio.Comum/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Treinamento.Repositorio.Comum.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.Repositorio.Comum.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntityFramework/6.2.0": {
+      "sha512": "ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
+      "type": "package",
+      "path": "entityframework/6.2.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net40/App.config.transform",
+        "content/net40/Web.config.transform",
+        "entityframework.6.2.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
+    "EntityFramework6.Npgsql/3.2.0": {
+      "sha512": "ILA1KssI2C6Rr5++DMvZpUsOE0/Jed7nAImTd2z0pqpM305dvY2wsrmkXdIA/NI+wc9OuISyQo7vgw4tj/OI/A==",
+      "type": "package",
+      "path": "entityframework6.npgsql/3.2.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "entityframework6.npgsql.3.2.0.nupkg.sha512",
+        "entityframework6.npgsql.nuspec",
+        "lib/net45/EntityFramework6.Npgsql.dll",
+        "lib/net45/EntityFramework6.Npgsql.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "Npgsql/4.0.2": {
+      "sha512": "sPpinYdH+Jdq9iLFllElQ+J/h3jAnefyUxgBlwc4yz9eBezSYhj64T/u9OlX4cJRXglT3LBkwsFFY78HH4wokw==",
+      "type": "package",
+      "path": "npgsql/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Npgsql.dll",
+        "lib/net45/Npgsql.pdb",
+        "lib/net45/Npgsql.xml",
+        "lib/net451/Npgsql.dll",
+        "lib/net451/Npgsql.pdb",
+        "lib/net451/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.pdb",
+        "lib/netstandard2.0/Npgsql.xml",
+        "npgsql.4.0.2.nupkg.sha512",
+        "npgsql.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "sha512": "YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/uap10.0.16300/_._",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/uap10.0.16300/_._",
+        "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.0": {
+      "sha512": "csAJe24tWCOTO/rXoJAuBGuOq7ZdHY60XtC6b/hNMHT9tuX+2J9HK7nciLEtNvnrRLMxBACLXO3R4y5+kCduMA==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/uap10.0.16300/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "ref/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "ref/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "ref/uap10.0.16300/_._",
+        "system.threading.tasks.extensions.4.5.0.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Treinamento.ProdutosMarcas.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../ProdutosMarcas.Dominio/Treinamento.ProdutosMarcas.Dominio.csproj",
+      "msbuildProject": "../ProdutosMarcas.Dominio/Treinamento.ProdutosMarcas.Dominio.csproj"
+    },
+    "Treinamento.ProdutosMarcas.Persistencia.EF/1.0.0": {
+      "type": "project",
+      "path": "../ProdutosMarcas.Persistencia.EF/Treinamento.ProdutosMarcas.Persistencia.EF.csproj",
+      "msbuildProject": "../ProdutosMarcas.Persistencia.EF/Treinamento.ProdutosMarcas.Persistencia.EF.csproj"
+    },
+    "Treinamento.ProdutosMarcas.Repositorio.EF/1.0.0": {
+      "type": "project",
+      "path": "../Treinamento.ProdutosMarcas.Repositorio.EF/Treinamento.ProdutosMarcas.Repositorio.EF.csproj",
+      "msbuildProject": "../Treinamento.ProdutosMarcas.Repositorio.EF/Treinamento.ProdutosMarcas.Repositorio.EF.csproj"
+    },
+    "Treinamento.Repositorio.Comum/1.0.0": {
+      "type": "project",
+      "path": "../Repositorio.Comum/Treinamento.Repositorio.Comum.csproj",
+      "msbuildProject": "../Repositorio.Comum/Treinamento.Repositorio.Comum.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "EntityFramework >= 6.2.0",
+      "EntityFramework6.Npgsql >= 3.2.0",
+      "Treinamento.ProdutosMarcas.Dominio >= 1.0.0",
+      "Treinamento.ProdutosMarcas.Repositorio.EF >= 1.0.0",
+      "Treinamento.Repositorio.Comum >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\ProdutosMarcas\\Treinamento.ProdutosMarcas.Apresentacao\\Treinamento.ProdutosMarcas.Apresentacao.csproj",
+      "projectName": "Treinamento.ProdutosMarcas.Apresentacao",
+      "projectPath": "C:\\Users\\User\\source\\repos\\ProdutosMarcas\\Treinamento.ProdutosMarcas.Apresentacao\\Treinamento.ProdutosMarcas.Apresentacao.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\ProdutosMarcas\\Treinamento.ProdutosMarcas.Apresentacao\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Users\\User\\source\\repos\\ProdutosMarcas\\ProdutosMarcas.Dominio\\Treinamento.ProdutosMarcas.Dominio.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\ProdutosMarcas\\ProdutosMarcas.Dominio\\Treinamento.ProdutosMarcas.Dominio.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\ProdutosMarcas\\Repositorio.Comum\\Treinamento.Repositorio.Comum.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\ProdutosMarcas\\Repositorio.Comum\\Treinamento.Repositorio.Comum.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\ProdutosMarcas\\Treinamento.ProdutosMarcas.Repositorio.EF\\Treinamento.ProdutosMarcas.Repositorio.EF.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\ProdutosMarcas\\Treinamento.ProdutosMarcas.Repositorio.EF\\Treinamento.ProdutosMarcas.Repositorio.EF.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "EntityFramework": {
+            "target": "Package",
+            "version": "[6.2.0, )"
+          },
+          "EntityFramework6.Npgsql": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
